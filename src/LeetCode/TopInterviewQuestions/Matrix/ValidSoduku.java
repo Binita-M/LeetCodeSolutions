@@ -10,7 +10,7 @@ public class ValidSoduku {
             for (int column = 0; column < 9; column++) {
                 char num = board[row][column];
 
-                if (board[row][column] != '.') { //check null values
+                if (num != '.') { //check null values
 
                     //check row
                     if(!set.add(num + "in row" + row)){
