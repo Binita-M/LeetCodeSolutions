@@ -38,6 +38,7 @@ public class ValidSoduku {
     public static void main(String[] args) {
         ValidSoduku validator = new ValidSoduku();
 
+        //Valid board
        /* char[][] board1 = {
                 {'5','3','.','.','7','.','.','.','.'},
                 {'6','.','.','1','9','5','.','.','.'},
@@ -49,6 +50,8 @@ public class ValidSoduku {
                 {'.','.','.','4','1','9','.','.','5'},
                 {'.','.','.','.','8','.','.','7','9'}
         };*/
+
+        //Invalid board
         char[][] board2 = {
                 {'5', '3', '.', '.', '7', '.', '.', '.', '.'},
                 {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
